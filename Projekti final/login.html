@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Playfair+Display:wght@400;500;600&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <p>Free Shopping on $40 purchase</p>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Shop All</a></li>
+          <li><a href="beauty.html">Beauty</a></li>
+          <li><a href="skin.html">Skin</a></li>
+          <li><a href="#bestSellers">Best Seller</a></li>
+          <li><a href="index.html">About</a></li>
+        </ul>
+        <img
+          class="logo"
+          src="img/logo.png"
+          alt=""
+        />
+        <div class="buttons">
+          <a href="login.html"><img src="img/account.png" alt="" /></a>
+          <img src="img/add-to-basket.png" alt="" />
+        </div>
+      </nav>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form class="login-form" action="#">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <p id="validationText"></p>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" >
+            <p id="validationPassword"></p>
+          </div>
+          <div class="form-group">
+            <button id="btn" type="submit">Login</button>
+          </div>
+        </form>
+      </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
